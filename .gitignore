@@ -1,0 +1,21 @@
+# Only track source code, ignore dependencies & build artifacts
+
+# Node
+**/node_modules
+**/dist
+**/build
+**/.tsbuildinfo
+**/.vite
+
+# Hardhat
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+
+# Env
+.env
+.env.*
+**/.env
+**/.env.*
+
+
