@@ -18,4 +18,9 @@ contracts/typechain-types
 **/.env
 **/.env.*
 
+# OS & tooling noise
+.DS_Store
+**/.DS_Store
+*.tsbuildinfo
+
 
